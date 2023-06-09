@@ -53,7 +53,10 @@ function findSpotForCol(x) {
 }
 
 function endGame(msg) {
-  alert(msg);
+  setTimeout(function(){
+    alert(msg);
+  }, 100);
+  
 }
 
 function handleClick(evt) {
